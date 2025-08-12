@@ -28,5 +28,23 @@ Este proyecto simula un sistema básico para recuperar contraseña, incluyendo:
 
 3\. Sigue las instrucciones en pantalla
 
+\# Proyecto CFA - Recuperación de Contraseña
+
+
+
+Este proyecto permite recuperar contraseñas mediante un código de verificación enviado por correo electrónico. 
+
+
+
+\*\*Cambios realizados:\*\*
+
+\- Se implementó la validación del correo electrónico.
+
+\- Se agregó la validación del código de verificación.
+
+\- Se mejoró la validación de la nueva contraseña.
+
+\- Se validaron los intentos para ingresar el código de verificación.
+
 
 
