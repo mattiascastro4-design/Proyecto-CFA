@@ -58,3 +58,22 @@ def main():
 
 if __name__ == "__main__":
     main()
+def solicitar_email():
+    while True:
+        email = input("Ingresa tu correo electrónico: ").strip()
+        if email == "":
+            print("El correo no puede estar vacío. Intenta de nuevo.")
+        elif "@" not in email or "." not in email:
+            print("Correo inválido. Debe contener '@' y un dominio. Intenta de nuevo.")
+        else:
+            return email
+
+def solicitar_codigo():
+    while True:
+        codigo = input("Ingresa el código de verificación (4 dígitos): ").strip()
+        if not codigo.isdigit():
+            print("El código debe ser solo números.")
+        elif len(codigo) != 4:
+            print("El código debe tener exactamente 4 dígitos.")
+        else:
+            return codigo
