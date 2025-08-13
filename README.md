@@ -32,7 +32,7 @@ Este proyecto simula un sistema básico para recuperar contraseña, incluyendo:
 
 
 
-Este proyecto permite recuperar contraseñas mediante un código de verificación enviado por correo electrónico. 
+Este proyecto permite recuperar contraseñas mediante un código de verificación enviado por correo electrónico.
 
 
 
@@ -45,6 +45,4 @@ Este proyecto permite recuperar contraseñas mediante un código de verificació
 \- Se mejoró la validación de la nueva contraseña.
 
 \- Se validaron los intentos para ingresar el código de verificación.
-
-
 
